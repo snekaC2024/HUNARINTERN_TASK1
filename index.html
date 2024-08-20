@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneka Chandarasekaran - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="hamburger" id="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="about" class="welcome-container">
+        <h1>Welcome to My Personal Homepage</h1>
+        <p>This page is a brief introduction to who I am, what I do, and how you can connect with me. Feel free to explore!</p>
+    </div>
+
+    <div id="content" class="content-container">
+        <div class="profile-section">
+            <img src="profile.jpg" alt="Sneka Chandarasekaran" class="profile-picture">
+            <h2>Sneka Chandarasekaran</h2>
+            <p>I'm a college student interested in web development. I have completed internships and certifications in web development, and I enjoy creating functional and user-friendly websites.</p>
+        </div>
+    </div>
+
+    <div id="projects" class="projects-container">
+        <h3>My Projects</h3>
+
+        <div class="project-item" style="background-color: #f9e6e6;">
+            <h4>Project 1: Stopwatch</h4>
+            <img src="stopwatch.jpg" alt="Stopwatch Project" class="project-picture">
+            <p>A simple and efficient stopwatch application that allows users to measure time accurately.</p>
+            <a href="https://www.linkedin.com/posts/sneka-chandrasekaran-7a754a312_prodigyinfotech-stopwatch-webdevelopment-activity-7208121991491391489-NOw4?utm_source=share&utm_medium=member_android" target="_blank" class="project-link">Watch Video <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="project-item" style="background-color: #e6f9e6;">
+            <h4>Project 2: Weather App</h4>
+            <img src="weather-app.jpg" alt="Weather App Project" class="project-picture">
+            <p>A weather application that provides current weather conditions and forecasts based on the user's location.</p>
+            <a href="https://www.linkedin.com/posts/sneka-chandrasekaran-7a754a312_webdevelopment-weatherapp-prodigyinfotech-activity-7211006636918800385-NDlV?utm_source=share&utm_medium=member_android" target="_blank" class="project-link">Watch Video <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="project-item" style="background-color: #e6e6f9;">
+            <h4>Project 3: Calculator</h4>
+            <img src="calculator.jpg" alt="Calculator Project" class="project-picture">
+            <p>A basic calculator application for performing arithmetic operations like addition, subtraction, multiplication, and division.</p>
+            <a href="https://www.linkedin.com/posts/sneka-chandrasekaran-7a754a312_webdevelopment-coding-projectcompleted-activity-7227659193988632578-y12B?utm_source=share&utm_medium=member_android" target="_blank" class="project-link">Watch Video <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="project-item" style="background-color: #f9f0e6;">
+            <h4>Project 4: Tic Tac Toe</h4>
+            <img src="tic-tac-toe.jpg" alt="Tic Tac Toe Project" class="project-picture">
+            <p>A fun Tic Tac Toe game that can be played by two players.</p>
+            <a href="https://www.linkedin.com/posts/sneka-chandrasekaran-7a754a312_prodigyinfotech-webdevelopment-tictactoegame-activity-7208140033554329600-MaGm?utm_source=share&utm_medium=member_android" target="_blank" class="project-link">Watch Video <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+    <div id="contact" class="social-section">
+        <h3>Connect with Me</h3>
+        <a href="https://www.linkedin.com/in/sneka-chandarasekaran-7a754a312" target="_blank" class="social-link">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/snekaC2024" target="_blank" class="social-link">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+    </div>
+
+    <script>
+        document.getElementById('hamburger-menu').addEventListener('click', function() {
+            document.getElementById('nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
